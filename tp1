@@ -1,0 +1,22 @@
+package projtest;
+import java.util.Scanner;
+
+public class hello {
+    public static void main(String[] args) {
+         int a=90,b=0; 
+            System.out.println("entrez votre nombre entre 50 et 100");
+
+        while (a!=b) {
+            
+                b = new Scanner(System.in).nextInt();
+                if (a<b) {
+                System.out.println("le nombre est superieur");
+                }
+                if (a>b) {
+                    System.out.println("le nombre est inferieur");
+                    }
+         }
+         System.out.println("bravo la valeur est exacte ");
+         
+    }
+}
